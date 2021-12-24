@@ -27,8 +27,5 @@ const Items = [
 </head>
 <body>
 <?php echo Items[$_SERVER["REQUEST_URI"]]['content']; ?>
-<pre>
-<!--    --><?php //var_dump($_SERVER); ?>
-</pre>
 </body>
 </html>
